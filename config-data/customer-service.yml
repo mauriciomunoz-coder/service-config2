@@ -20,9 +20,9 @@ port: 8092
 # http://localhost:8092/h2-console
 # Enabling H2 Console
 spring:
-h2:
- console:
-   enabled: true
+  h2:
+   console:
+     enabled: true
 # ===============================
 # DB
 # ===============================
