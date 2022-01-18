@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import service.shopping.model.Product;
 
 @FeignClient(name = "service-product")
-@RequestMapping(value = "/products")
+
 public interface ProductClient {
 
 

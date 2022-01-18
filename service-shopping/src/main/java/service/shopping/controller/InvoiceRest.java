@@ -50,7 +50,7 @@ public class InvoiceRest {
     }
 
     // -------------------Create a Invoice-------------------------------------------
-    @PostMapping
+    @PostMapping(value = "/crear")
     public ResponseEntity<Invoice> createInvoice(@Valid @RequestBody Invoice invoice, BindingResult result) {
         log.info("Creating Invoice : {}", invoice);
         if (result.hasErrors()){

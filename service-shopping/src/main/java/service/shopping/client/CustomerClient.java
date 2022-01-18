@@ -10,7 +10,7 @@ import service.shopping.model.Customer;
 
 
 @FeignClient(name = "service-customer")
-@RequestMapping(value = "/customers")
+
 public interface CustomerClient {
 
     @GetMapping(value = "/encontrar/{id}")
